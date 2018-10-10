@@ -1,0 +1,90 @@
+html,
+body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#header
+{
+    background-color: aqua;
+}
+
+#menu
+{
+    background-color: coral;
+    float: left;
+    width: 180px;
+    height: 100%;
+    font-size:  16px;
+    text-align: initial;
+    border: 5px;
+    border-right: 3px;
+    border-color: black;
+}
+#canvas
+{
+    margin-left: 100px;
+    width: 800px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.listItem
+{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    list-style: none;
+    width: 800px;
+    margin-bottom: 10px;
+    
+}
+
+#panelTitle
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: unset;
+}
+
+#menu ul li
+{
+    list-style: none;
+}
+#menu ul li a
+{
+    text-decoration: none;
+}
+#menu ul li a:hover
+{
+    background-color: rgb(201, 192, 187);
+}
+#content
+{
+    /*background-color: rgb(118, 206, 137);*/
+    margin-left: 160px;
+}
+#footer
+{
+    background-color: greenyellow;
+}
+
+#sourceForm
+{
+    background-color: rgb(199, 211, 33);
+}
+
+#targetForm
+{
+    background-color: cornflowerblue;
+}
+
+.forms
+{
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+}
