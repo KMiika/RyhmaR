@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pankki</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/mystyle.css" />
-    <script src="myFunctions.js"></script>
-    <script src="form.js"></script>
+  <meta charset="utf-8">
+  <title>Harjoitus7</title>
+  <link rel="stylesheet" href="css/mystyle.css">
+  <script src="myFunctions.js" charset="utf-8"></script>
+  <script src="form.js" charset="utf-8"></script>
 </head>
 <body>
     <div id = "header">
@@ -17,14 +16,14 @@
         Menu
         <ul>
             <li id="panelTitle">Tilit ja maksut</li>
-            <li> <a onclick="loadXMLDoc('tilit.html')">Tilit</a> </li>
-            <li> <a onclick="loadXMLDoc('tilitapahtumat.html')">Tilitaphtumat</a> </li>
-            <li> <a onclick="loadXMLDoc('kortit.html')">Kortit</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/tilit.html')">Tilit</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/tilitapahtumat.html')">Tilitapahtumat</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/kortit.html')">Kortit</a> </li>
             <li id="panelTitle"><br>Maksut</li>
-            <li> <a onclick="loadXMLDoc('uusimaksu.html')">Uusi maksu</a> </li>
-            <li> <a onclick="loadXMLDoc('omasiirto.html')">Oma siirto tilien välillä</a> </li>
-            <li> <a onclick="loadXMLDoc('elaskut.html')">E-Laskut</a> </li>
-            <li> <a onclick="loadXMLDoc('maksupohjat.html')">Maksupohjat</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/uusimaksu.html')">Uusi maksu</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/omasiirto.html')">Oma siirto tilien välillä</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/elaskut.html')">E-Laskut</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/maksupohjat.html')">Maksupohjat</a> </li>
         </ul>
     </div>
     <div id = "content">

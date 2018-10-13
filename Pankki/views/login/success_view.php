@@ -17,14 +17,14 @@
         Menu
         <ul>
             <li id="panelTitle">Tilit ja maksut</li>
-            <li> <a onclick="loadXMLDoc('tilit.html')">Tilit</a> </li>
-            <li> <a onclick="loadXMLDoc('tilitapahtumat.html')">Tilitaphtumat</a> </li>
-            <li> <a onclick="loadXMLDoc('kortit.html')">Kortit</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/tilit.html')">Tilit</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/tilitapahtumat.html')">Tilitaphtumat</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/kortit.html')">Kortit</a> </li>
             <li id="panelTitle"><br>Maksut</li>
-            <li> <a onclick="loadXMLDoc('uusimaksu.html')">Uusi maksu</a> </li>
-            <li> <a onclick="loadXMLDoc('omasiirto.html')">Oma siirto tilien välillä</a> </li>
-            <li> <a onclick="loadXMLDoc('elaskut.html')">E-Laskut</a> </li>
-            <li> <a onclick="loadXMLDoc('maksupohjat.html')">Maksupohjat</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/uusimaksu.html')">Uusi maksu</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/omasiirto.html')">Oma siirto tilien välillä</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/elaskut.html')">E-Laskut</a> </li>
+            <li> <a onclick="loadXMLDoc('../controllers/maksupohjat.html')">Maksupohjat</a> </li>
         </ul>
     </div>
     <div id = "content">
@@ -35,7 +35,7 @@
         echo 'Tervetuloa <b>'.$_SESSION['user'].'</b><br>';
         echo '<br><a href="../controllers/logout.php"><button>Kirjaudu ulos</button></a>';
         echo '<ul>';
-          echo '<li><a href="../controllers/tilit.html">Tilit</a></li>';
+          echo '<li><a href="../controllers/show_tilit.php">Tilit</a></li>';
         echo '</ul>';
       }
       else {
